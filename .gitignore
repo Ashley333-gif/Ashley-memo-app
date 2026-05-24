@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.npm-cache/
+*.dmg
+*.dmg.blockmap
+builder-debug.yml
+.DS_Store

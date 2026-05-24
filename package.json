@@ -1,0 +1,43 @@
+{
+  "name": "ashley-memo",
+  "version": "1.0.0",
+  "description": "AshleyMemo — Mac 剪贴板历史管理器",
+  "main": "main.js",
+  "scripts": {
+    "start": "ELECTRON_RUN_AS_NODE= electron .",
+    "build": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "com.ashley.memo",
+    "productName": "AshleyMemo",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": "dmg",
+      "icon": "assets/icon.png"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "database.js",
+      "clipboard.js",
+      "renderer/**/*",
+      "assets/**/*",
+      "node_modules/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "images",
+        "to": "images"
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "electron-auto-launch": "^5.0.7"
+  }
+}

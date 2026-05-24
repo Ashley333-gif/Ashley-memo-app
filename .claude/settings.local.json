@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read",
+      "Edit",
+      "Write",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "additionalDirectories": [
+      "/Users/zfc/UCI/历史黏贴"
+    ]
+  }
+}
