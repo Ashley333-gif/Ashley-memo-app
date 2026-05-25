@@ -17,11 +17,6 @@ A pink-themed macOS menu bar clipboard history manager built with Electron.
 - Auto-launch on system startup | 开机自动启动
 - Clean pink UI with thumbnail previews | 简洁粉色界面，图片缩略图预览
 
-## Screenshot | 截图
-
-> *Click the pink circle icon in the menu bar to open the panel.*
-> *点击菜单栏粉色圆形图标打开面板。*
-
 ## Install | 安装
 
 Download the latest `.dmg` from [Releases](../../releases), open it, and drag **AshleyMemo** into **Applications**.
